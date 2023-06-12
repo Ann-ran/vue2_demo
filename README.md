@@ -1,29 +1,9 @@
-# vue2_demo
+[toc]
 
-## Project setup
+# 安装插件
 
-```
-npm install
-```
+`EditorConfig for VS Code`
 
-### Compiles and hot-reloads for development
+`ESLint`
 
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`prettier`
