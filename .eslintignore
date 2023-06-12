@@ -1,0 +1,15 @@
+# .eslintignore
+
+public
+dist
+node_modules
+docs
+
+# src/static
+# src/hybrid
+# src/plugins
+
+
+.automator
+.sourcemap
+.md

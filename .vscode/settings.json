@@ -1,0 +1,35 @@
+{
+  // tab 大小为2个空格
+  "editor.tabSize": 2,
+  // 保存时格式化
+  "editor.formatOnSave": true,
+  // 设置保存时是否自动修复代码
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  //黄色波浪线
+  "eslint.enable": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "[html]": {
+    // 对html文件，使用 vscode.html-language-features(vscode内置规则) 进行格式化,不要使用 prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    // 对json文件，使用 JSON语言功能 进行格式化
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    // 可选值： eslint ："dbaeumer.vscode-eslint"  vetur: "octref.vetur"   prettier: "esbenp.prettier-vscode"
+    // 对 vue 文件，使用 prettier（格式化规则） + eslint（校验） 进行格式化，也可以选择 vetur 插件，或者单独选择prettier不加eslint
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}
