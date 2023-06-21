@@ -1,22 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- 自定义指令 -->
     <input type="text" v-focus />
+    <!-- 过滤器 -->
+    <p>Price: {{ price | percent }}</p>
+    <!-- mixins -->
+    <p>{{ name }}</p>
+    <!-- plugins -->
+    <button @click="$myPlugin">Click me</button>
   </div>
 </template>
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
+  import Vue from 'vue'
+  // import HelloWorld from './components/HelloWorld.vue'
   import focus from '@/directives/focus'
+  import percent from './filters/percent'
+  import myMixin from '@/mixins/myMixin'
+  import MyPlugin from '@/plugins/my-plugin'
+  Vue.use(MyPlugin, { name: 'anran' })
   export default {
     name: 'App',
     components: {
-      HelloWorld
+      // HelloWorld
     },
     directives: { focus },
+    filters: { percent },
+    mixins: [myMixin],
     data() {
       return {
-        test: 'HelloWorld'
+        test: 'HelloWorld',
+        price: 100
       }
     },
     beforeCreate() {
@@ -24,6 +39,7 @@
     },
     created() {
       console.log('created')
+      this.greet()
     },
     beforeMount() {
       console.log('beforeMount')
