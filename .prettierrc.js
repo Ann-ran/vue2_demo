@@ -36,39 +36,3 @@ module.exports = {
   // 换行符使用 lf
   endOfLine: 'crlf'
 }
-// {
-// 	// "semi": true,
-// 	// "trailingComma": "all",
-// 	// "singleQuote": true,
-// 	// "printWidth": 100,
-// 	// "tabWidth": 2
-// 	"semi": false,
-// 	"singleQuote": true,
-// 	"trailingComma": "none"
-// }
-// {
-// 	"printWidth": 40,
-// 	"tabWidth": 2,
-// 	"singleQuote": true,
-// 	"semi": false,
-// 	"bracketSpacing": true,
-// 	// "arrowParens": "always",
-// 	// "bracketSameLine": true,
-// 	// "bracketSpacing": false,
-// 	// "embeddedLanguageFormatting": "auto",
-// 	// "htmlWhitespaceSensitivity": "css",
-// 	// "insertPragma": false,
-// 	// "jsxSingleQuote": false,
-// 	// "printWidth": 80,
-// 	// "proseWrap": "preserve",
-// 	// "quoteProps": "as-needed",
-// 	// "requirePragma": false,
-// 	// "semi": false,
-// 	// "singleAttributePerLine": false,
-// 	// "singleQuote": true,
-// 	// "tabWidth": 2,
-// 	// "trailingComma": "es5",
-// 	// "useTabs": false,
-// 	// "vueIndentScriptAndStyle": false,
-// 	// "rangeEnd": 0
-// }

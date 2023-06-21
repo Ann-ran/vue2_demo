@@ -8,11 +8,11 @@ module.exports = {
     es2020: true,
     es2021: true
   },
-  extends: ['plugin:vue/essential', 'eslint:recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended', 'plugin:vue/essential'],
   parserOptions: {
     parser: ['@babel/eslint-parser', '@typescript-eslint/parser'],
     sourceType: 'module', // script或者module
-    ecmaVersion: 'latest', // 6 7 8 9
+    ecmaVersion: 6, // 6 7 8 9
     ecmaFeatures: {
       globalReturn: false, // 允许在全局作用域下使用 return 语句
       jsx: true, // 启用 jsx
