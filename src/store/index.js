@@ -3,5 +3,5 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const store = 1
+const store = 2
 export default store
