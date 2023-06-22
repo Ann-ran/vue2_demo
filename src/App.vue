@@ -10,6 +10,10 @@
     <p>{{ name }}</p>
     <!-- plugins -->
     <button @click="$myPlugin">Click me</button>
+    <!-- router -->
+    <router-link to="/">to home</router-link>
+    <router-link to="/about">to about</router-link>
+    <router-view></router-view>
   </div>
 </template>
 <script>
@@ -60,8 +64,8 @@
       console.log('destroy')
     },
     methods: {
-      ccc() {
-        console.log('ccc')
+      toAbout() {
+        console.log('toAbout')
       }
     }
   }
