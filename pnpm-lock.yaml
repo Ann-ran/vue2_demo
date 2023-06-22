@@ -18,11 +18,15 @@ specifiers:
   prettier: ^2.8.8
   typescript: ^5.1.3
   vue: ^2.6.14
+  vue-router: ^3.6.5
   vue-template-compiler: ^2.6.14
+  vuex: ^4.1.0
 
 dependencies:
   core-js: 3.31.0
   vue: 2.7.14
+  vue-router: 3.6.5_vue@2.7.14
+  vuex: 4.1.0_vue@2.7.14
 
 devDependencies:
   '@babel/core': 7.22.5
@@ -2280,6 +2284,10 @@ packages:
       - walrus
       - whiskers
     dev: true
+
+  /@vue/devtools-api/6.5.0:
+    resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
+    dev: false
 
   /@vue/web-component-wrapper/1.3.0:
     resolution: {integrity: sha512-Iu8Tbg3f+emIIMmI2ycSI8QcEuAUgPTgHwesDU1eKMLE4YC/c/sFbGc70QgMq31ijRftV0R7vCm9co6rldCeOA==}
@@ -7111,6 +7119,14 @@ packages:
       webpack: 5.87.0
     dev: true
 
+  /vue-router/3.6.5_vue@2.7.14:
+    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+    peerDependencies:
+      vue: ^2
+    dependencies:
+      vue: 2.7.14
+    dev: false
+
   /vue-style-loader/4.1.3:
     resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}
     dependencies:
@@ -7134,6 +7150,15 @@ packages:
     dependencies:
       '@vue/compiler-sfc': 2.7.14
       csstype: 3.1.2
+
+  /vuex/4.1.0_vue@2.7.14:
+    resolution: {integrity: sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.5.0
+      vue: 2.7.14
+    dev: false
 
   /watchpack/2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
