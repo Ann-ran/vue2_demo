@@ -70,4 +70,15 @@
     }
   }
 </script>
-<style></style>
+<style lang="less" scoped>
+  #app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // 修复 第一个p并没有变颜色
+    p:first-of-type {
+      color: green;
+    }
+  }
+</style>
